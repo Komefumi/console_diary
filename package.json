@@ -1,0 +1,20 @@
+{
+  "name": "console_diary",
+  "version": "0.0.1",
+  "description": "A simple console based diary",
+  "main": "index.js",
+  "scripts": {
+    "knex": "knex",
+    "main": "node index.js",
+    "insert": "MODE=insert node index.js",
+    "list": "MODE=list node index.js",
+    "test": "MODE=test node index.js"
+  },
+  "author": "Komefumi <arjunraju.pillai.1997@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^0.21.17",
+    "luxon": "^1.25.0",
+    "sqlite3": "^5.0.1"
+  }
+}
